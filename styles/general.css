@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Dana";
+  src: url(../fonts/ttf/Dana-Regular.ttf);
+}
+@font-face {
+  font-family: "Dana bold";
+  src: url(../fonts/ttf/Dana-Bold.ttf);
+}
+@font-face {
+  font-family: "Dana";
+  src: url(../fonts/woff2/Dana-Regular.woff2);
+}
+@font-face {
+  font-family: "Dana bold";
+  src: url(../fonts/woff2/Dana-Bold.woff2);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Dana;
+}
+body {
+  margin: 0;
+}
+p {
+  margin: 0;
+}

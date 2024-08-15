@@ -1,0 +1,90 @@
+main {
+  height: 100vh;
+  background-color: #fafafa;
+  display: flex;
+}
+.products-section {
+  width: 1250px;
+  margin: auto;
+}
+.products-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.right-side-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.right-side-header::before {
+  content: url(../images/svg//chevron-down.svg);
+  width: 16px;
+  height: 16px;
+  margin-left: 6px;
+}
+.left-side-header a {
+  color: #2a69fe;
+  text-decoration: none;
+}
+.row-products {
+  display: flex;
+  justify-content: space-between;
+}
+.product {
+  width: 300px;
+  height: auto;
+  padding: 22px 16px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s;
+}
+.product:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.product img {
+  width: 100%;
+}
+.product h3 {
+  height: 74px;
+}
+.product h3 a {
+  color: black;
+  font-size: 14px;
+  font-weight: normal;
+  text-decoration: none;
+}
+.discount-percentage {
+  background-color: rgb(205, 241, 255);
+  color: #2a69fe;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-left: 8px;
+}
+.discount-price {
+  color: rgb(90, 90, 90);
+  text-decoration: line-through;
+}
+.end-sec-product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.price {
+  font-weight: bold;
+  margin-left: 8px;
+}
+.rate {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+}
+.rate::after {
+  content: url(../images/svg/star.svg);
+  width: 12px;
+  height: 12px;
+  margin-right: 6px;
+}
